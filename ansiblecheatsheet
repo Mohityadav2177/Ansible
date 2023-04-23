@@ -1,0 +1,76 @@
+ 1  touch file1
+    2  sudo touch file1
+    3  cd ..
+    4  cd ..
+    5  ls
+    6  ssh 172.31.6.212
+    7  ls-a
+    8  ls -a
+    9  cd .ssh
+   10  ls
+   11  ls -a
+   12  ssh-copy-id ansible172.31.6.212
+   13  ssh-keygen
+   14  ls
+   15  ls -a
+   16  ssh-copy-id ansible172.31.6.212
+   17  ssh -keygen
+   18  ssh-keygen
+   19  ls -a
+   20  cd .ssh
+   21  ls
+   22  ssh-copy-id ansible172.31.6.212
+   23  cd ..
+   24  ssh -keygen
+   25  ssh-keygen
+   26  ls -ann
+   27  ls -aa
+   28  cd .ssh
+   29  ls
+   30  ssh-copy-id ansible@172.31.6.212
+   31  ssh 172.31.6.212
+   32  ssh 172.31.6.242
+   33  visudo
+   34  vi sudo
+   35  visudo
+   36  ls
+   37  ls -a
+   38  cd ..
+   39  sudo yum install httpd
+   40  ssh 65.2.123.228
+   41  ansible all --list-hosts
+   42  ansible demo --list-hosts
+   43  ansible demo [0] --list-hosts
+   44  ansible demo[0] --list-hosts
+   45   ansible demo[0] --list-hosts
+   46  ansible demo [1] --list-hosts
+   47  ansible demo[1] --list-hosts
+   48  ls
+   49  ansible demo -a "ls"
+   50  ls
+   51  ansible demo -a "ls -a"
+   52  ansible all -a "ls"
+   53  ssh 43.204.236.163
+   54  passwd
+   55  addansible
+   56  add user
+   57  adduser
+   58  ansible adduser
+   59  adduser ansible
+   60  ssh 43.204.236.163
+   61  ansible all -a "ls"
+   62  cd .ssh
+   63  ls
+   64  ssh-copy-id ansible@43.204.236.163
+   65  ssh 43.204.236.163
+   66  ansible all -a "ls"
+   67  ansible all -a "touch mohit"
+   68  ansible all -a "ls -a"
+   69  ansible demo -a "yum install httpd -y"
+   70  ansible demo -a "sudo yum install httpd -y"
+   71  ansible demo -a "ba yum remove httpd "
+   72  ansible demo -ba "yum rm httpd"
+   73  ansible demo -ba "yum remove httpd "
+   74  ansible demo -ba "yum remove httpd -y"
+   75  ansible demo -b -m yum -a "pkg=tree state=present"
+   76  history
